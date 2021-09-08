@@ -1,13 +1,15 @@
 package com.company;
 
+
+
 public class MarvelFactory implements AbstractFactory {
     @Override
     public Villano getVillano() {
-        return null;
+        return new VillanoMarvel("THANOS");
     }
 
     @Override
     public Heroe getHeroe() {
-        return null;
+        return new HeroeMarvel("IRONMAN");
     }
 }

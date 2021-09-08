@@ -3,11 +3,11 @@ package com.company;
 public class DCcommicsFactory implements AbstractFactory {
     @Override
     public Villano getVillano() {
-        return null;
+        return new VillanoDC("WASON");
     }
 
     @Override
     public Heroe getHeroe() {
-        return null;
+        return new HeroeDC("BATMAN");
     }
 }
