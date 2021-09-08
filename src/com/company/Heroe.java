@@ -1,6 +1,6 @@
 package com.company;
 
-public class Heroe {
+public abstract class Heroe {
     private String NombreHeroe;
 
     public Heroe(String nombreHeroe) {
